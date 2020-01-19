@@ -1,0 +1,563 @@
+﻿{% load static %}<!DOCTYPE html>
+<html lang="zxx">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Hyiprex - Investment plan HTML template </title>
+        <!-- favicon -->
+
+        <!-- bootstrap -->
+        <link rel="stylesheet" href="/static/assets/css/bootstrap.min.css">
+        <!-- fontawesome icon  -->
+        <link rel="stylesheet" href="/static/assets/css/fontawesome.min.css">
+        <!-- flaticon css -->
+        <link rel="stylesheet" href="/static/assets/fonts/flaticon.css">
+        <!-- animate.css -->
+        <link rel="stylesheet" href="/static/assets/css/animate.css">
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="/static/assets/css/owl.carousel.min.css">
+        <!-- magnific popup -->
+        <link rel="stylesheet" href="/static/assets/css/magnific-popup.css">
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="/static/assets/css/style.css">
+        <!-- responsive -->
+        <link rel="stylesheet" href="/static/assets/css/responsive.css">
+
+         <link rel="stylesheet" href="/static/assets/css/add.css">
+          <link rel="stylesheet" href="/static/assets/css/font-awesome1.min.css">
+        <!-- jquery -->
+        <script src="/static/assets/js/jquery-3.3.1.min.js"></script>
+        <script src="/static/assets/js/jquery-migrate-3.0.1.js"></script>
+        <!-- bootstrap -->
+        <script src="/static/assets/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+        <!-- preloader begin-->
+        <div class="sec">
+            <div class="loader">
+                <div class="circle item0"></div>
+                <div class="circle item1"></div>
+                <div class="circle item2"></div>
+            </div>
+        </div>
+        <!-- preloader end -->
+
+        <!-- header begin-->
+        <div class="header">
+            <div class="header-top">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-5 col-lg-5">
+                            <div class="support-bar-left">
+                                <ul>
+                                    <li><span><i class="fas fa-phone-square"></i></span>+666666</li>
+                                    <li><span><i class="fas fa-envelope"></i></span>666666@qq.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-5">
+                            <div class="support-bar-right">
+                                <ul>
+                                    <li><a type="button" class="btn btn-primary">登录</a></li>
+                                    <li><a type="button" class="btn btn-primary">注册</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-xl-3 col-lg-3 d-xl-flex d-lg-flex d-block align-items-center">
+                            <div class="row">
+                                <div class="col-xl-12 col-lg-12 col-7 d-xl-block d-lg-block d-flex align-items-center">
+                                    <div class="logo-img">
+                                        <a href="index.html"><img src="/static/assets/img/logo.png" alt=""></a>
+                                    </div>
+                                </div>
+                                <div class="d-xl-none d-lg-none d-block col-5">
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <i class="fas fa-bars"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-9 d-xl-flex d-lg-flex d-block align-items-center">
+                            <div class="mainmenu">
+                                <nav class="navbar navbar-expand-lg">
+
+                                    <div class="collapse navbar-collapse" id="navbarNav">
+                                        <ul class="navbar-nav">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="index.html">首页</a>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#"  role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                   aria-expanded="false">
+                                                    项目库
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                   <a class="dropdown-item" href="/chuangye/cygslist/">创业公司</a>
+                                                    <a class="dropdown-item" href="/chuangye/cyzlist/">创业者</a>
+                                                    <a class="dropdown-item" href="/chuangye/cysjlist/">创业事件</a>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#"  role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                   aria-expanded="false">
+                                                    找投资
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                     <a class="dropdown-item" href="/touzi/tzjglist/">投资公司</a>
+                                                    <a class="dropdown-item" href="/touzi/tzzlist">投资者</a>
+                                                    <a class="dropdown-item" href="/touzi/tzsjlist">投资事件</a>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                    经验教训囊
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                    <a class="dropdown-item" href="/siwang/swgslist/">失败公司</a>
+                                                    <a class="dropdown-item" href="/siwang/swsjlist/">失败事件</a>
+                                                </div>
+                                            </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                    aria-expanded="false">
+                                                    互动频道
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                                                    <a class="dropdown-item" href="#">我的收藏</a>
+                                                    <a class="dropdown-item" href="#">我的讨论</a>
+                                                </div>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- header end -->
+            <div class="how-it-works pd100">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="part-text col-sm-12">
+
+                                        <table class="table table-bordered mb30">
+                                            <tr>
+                                                <td><a href="##">  找投资</a> > 投资者</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <form class="form-inline">
+                                                        <div class="form-group">
+                                                            <label for="exampleInputEmail1">搜索&nbsp;&nbsp;</label>
+                                                            <input type="text" class="form-control"  placeholder="输入关键字，按回车确认">
+                                                        </div>
+                                                        <div class="form-group">
+                                                         <label for="exampleInputEmail1">  &nbsp;&nbsp; &nbsp;&nbsp;</label>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label for="exampleInputEmail1">标签&nbsp;&nbsp;</label>
+                                                            <input type="text" class="form-control"  placeholder="输入关键字,选择标签">
+                                                        </div>
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                        </table>
+
+                                </div>
+                    </div>
+                    <div class="row">
+                        <div class=" col-lg-3 col-md-3" style="padding-right: 0;">
+
+                                 <div class="men">
+                                      <div class="menu">
+                                        <ul>
+                                          <li class="elet">
+                                            <div class="e1">
+                                              <a href="#">行业</a>
+                                            </div>
+                                            <div class="e2 mm">
+                                              <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                                              <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                              <a href="#">不限</a>
+                                              <a href="#">教育</a>
+                                              <a href="#">金融</a>
+                                                  <a href="#">汽车交通</a>
+                                                  <a href="#">房产服务</a>
+                                                  <a href="#">医疗健康</a>
+                                                  <a href="#">旅游</a>
+                                                  <a href="#">本地生活</a>
+                                                  <a href="#">游戏</a>
+                                                  <a href="#">广告营销</a>
+                                                  <a href="#">硬件</a>
+                                                  <a href="#">文娱传媒</a>
+                                                  <a href="#">企业服务</a>
+                                                  <a href="#">社交网络</a>
+                                                  <a href="#">电子商务</a>
+                                                  <a href="#">工具软件</a>
+                                                  <a href="#">体育运动</a>
+                                                  <a href="#">物流</a>
+                                                  <a href="#">农业</a>
+                                            </div>
+                                          </li>
+                                          <li class="elet">
+                                            <div class="e1">
+                                              <a href="#">阶段</a>
+                                            </div>
+                                            <div class="e2 mm">
+                                              <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                                              <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                              <a href="#">不限</a>
+                                              <a href="#">种子天使轮</a>
+                                              <a href="#">Pre-A轮</a>
+                                                  <a href="#">A轮</a>
+                                                  <a href="#">B轮</a>
+                                                  <a href="#">C轮及以后</a>
+                                                  <a href="#">IPO上市</a>
+                                                  <a href="#">IPO上市后</a>
+                                                  <a href="#">收购</a>
+                                                  <a href="#">战略投资</a>
+
+                                            </div>
+                                          </li>
+                                           <li class="elet">
+                                            <div class="e1">
+                                              <a href="#">类型</a>
+                                            </div>
+                                            <div class="e2 mm">
+                                              <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                                              <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                              <a href="#">不限</a>
+                                              <a href="#">投资机构</a>
+                                              <a href="#">FA</a>
+                                                  <a href="#">FOF</a>
+                                                  <a href="#">众筹</a>
+                                                  <a href="#">天使机构</a>
+                                                  <a href="#">VC</a>
+                                                  <a href="#">PE</a>
+                                                  <a href="#">金融机构</a>
+                                                  <a href="#">其他</a>
+                                                   <a href="#">非上市公司</a>
+                                                  <a href="#">上市公司</a>
+                                                  <a href="#">孵化器</a>
+                                                  <a href="#">天使个人</a>
+
+                                            </div>
+                                          </li>
+                                          <li class="elet">
+                                            <div class="e1">
+                                              <a href="#">地区</a>
+                                            </div>
+                                            <div class="e2">
+                                              <a href="#">国内</a>
+                                              <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="menu-2">
+                                                <div class="p1">
+                                                  <ul>
+                                                    <li class="mt10 mb15">
+                                                    <!--   <a href="#" class="tit"></a> -->
+                                                      <ul class="tit-list clearfix">
+                                                        <li><a href="#">北京</a></li>
+                                                        <li><a href="#">天津</a></li>
+                                                        <li><a href="#">河北</a></li>
+                                                        <li><a href="#">山西</a></li>
+                                                        <li><a href="#">内蒙古</a></li>
+                                                        <li><a href="#">辽宁</a></li>
+                                                        <li><a href="#">吉林</a></li>
+                                                        <li><a href="#">黑龙江</a></li>
+                                                        <li><a href="#">上海</a></li>
+                                                        <li><a href="#">江苏</a></li>
+                                                        <li><a href="#">浙江</a></li>
+                                                        <li><a href="#">安徽</a></li>
+                                                        <li><a href="#">福建</a></li>
+                                                        <li><a href="#">江西</a></li>
+                                                        <li><a href="#">山东</a></li>
+                                                        <li><a href="#">河南</a></li>
+                                                        <li><a href="#">湖北</a></li>
+                                                        <li><a href="#">湖南</a></li>
+                                                        <li><a href="#">广东</a></li>
+                                                        <li><a href="#">广西</a></li>
+                                                        <li><a href="#">海南</a></li>
+                                                        <li><a href="#">重庆</a></li>
+                                                        <li><a href="#">四川</a></li>
+                                                        <li><a href="#">贵州</a></li>
+                                                        <li><a href="#">云南</a></li>
+                                                        <li><a href="#">西藏</a></li>
+                                                        <li><a href="#">陕西</a></li>
+                                                        <li><a href="#">甘肃</a></li>
+                                                        <li><a href="#">青海</a></li>
+                                                        <li><a href="#">宁夏</a></li>
+                                                        <li><a href="#">新疆</a></li>
+                                                        <li><a href="#">香港</a></li>
+                                                        <li><a href="#">澳门</a></li>
+                                                        <li><a href="#">台湾</a></li>
+                                                      </ul>
+                                                    </li>
+
+                                                  </ul>
+                                                </div>
+                                            </div>
+                                          </li>
+                                          <li class="elet">
+                                              <div class="e2">
+                                                  <a href="#">国外</a>
+                                                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                                                </div>
+                                                <div class="menu-2">
+                                                    <div class="p1">
+                                                      <ul>
+                                                        <li class="mt10 mb15">
+                                                        <!--   <a href="#" class="tit"></a> -->
+                                                          <ul class="tit-list clearfix">
+                                                            <li><a href="#">欧洲</a></li>
+                                                            <li><a href="#">非洲</a></li>
+                                                            <li><a href="#">亚洲</a></li>
+                                                            <li><a href="#">大洋洲</a></li>
+                                                            <li><a href="#">北美洲</a></li>
+                                                            <li><a href="#">南美洲</a></li>
+
+
+                                                          </ul>
+                                                        </li>
+
+                                                      </ul>
+                                                    </div>
+                                                </div>
+                                          </li>
+                                          <li class="elet">
+                                            <div class="e1">
+                                              <a href="#">时间</a>
+                                            </div>
+                                            <div class="e2 mm">
+                                              <i class="fa fa-angle-double-down" aria-hidden="true"></i>
+                                              <i class="fa fa-angle-double-up" aria-hidden="true"></i>
+                                              <a href="#">不限</a>
+                                              <a href="#">2020</a>
+                                              <a href="#">2019</a>
+                                                  <a href="#">2018</a>
+                                                  <a href="#">2017</a>
+                                                  <a href="#">2016</a>
+                                                  <a href="#">2015</a>
+                                                  <a href="#">2014</a>
+                                                  <a href="#">2013</a>
+                                                  <a href="#">2012及以前</a>
+
+
+                                            </div>
+                                          </li>
+                                        </ul>
+                                        <!-- 此处仿的div -->
+                                      </div>
+                                 </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9  personwrap">
+                            <div class="clearfix">
+                              <div class="box b" href="/chuangye/cyzdetails/">
+                                  <div class="imgbox pull-left">
+                                      <a href="##">
+                                        <img src="/static/assets/img/1.png">
+                                      </a>
+                                       <a href="##" class="guan"><i class="fa fa-star-o" aria-hidden="true"></i>关注</a>
+                                  </div>
+                                  <div class="infobox pull-left" >
+                                     <a href="/chuangye/cyzdetails/">李保国</a>
+                                     <a href="##" class="des">机构投资人</a>
+                                     <p>李保国，海富产业投资基金管理有限公司董事长</p>
+                                  </div>
+
+                              </div>
+                              <div class="box b">
+
+                                  <div class="imgbox pull-left">
+                                      <a href="##">
+                                        <img src="/static/assets/img/1.png">
+                                      </a>
+                                       <a href="##" class="guan"><i class="fa fa-star-o" aria-hidden="true"></i>关注</a>
+                                  </div>
+                                  <div class="infobox pull-left">
+                                     <a href="##">易诺青</a>
+                                     <a href="##">机构投资人</a>
+                                     <p>易诺青，高瓴资本集团合伙人，2014年10月起担任董事会成员，自高瓴资本集团2005年成立以来作为董事总经理，国国际金融公司前股市研究分析师，上海海事大学工程学理学学士学位，南加州大学工商管理学硕士学位</p>
+                                  </div>
+
+                              </div>
+                              <div class="box b">
+                                  <div class="imgbox pull-left">
+                                      <a href="##">
+                                        <img src="/static/assets/img/1.png">
+                                      </a>
+                                       <a href="##" class="guan"><i class="fa fa-star-o" aria-hidden="true"></i>关注</a>
+                                  </div>
+                                  <div class="infobox pull-left" >
+                                     <a href="##">李保国</a>
+                                     <a href="##" class="des">机构投资人</a>
+                                     <p>李保国，海富产业投资基金管理有限公司董事长</p>
+                                  </div>
+
+                              </div>
+                              <div class="box b">
+
+                                  <div class="imgbox pull-left">
+                                      <a href="##">
+                                        <img src="/static/assets/img/1.png">
+                                      </a>
+                                       <a href="##" class="guan"><i class="fa fa-star-o" aria-hidden="true"></i>关注</a>
+                                  </div>
+                                  <div class="infobox pull-left">
+                                     <a href="##">易诺青</a>
+                                     <a href="##">机构投资人</a>
+                                     <p>易诺青，高瓴资本集团合伙人，2014年10月起担任董事会成员，自高瓴资本集团2005年成立以来作为董事总经理，国国际金融公司前股市研究分析师，上海海事大学工程学理学学士学位，南加州大学工商管理学硕士学位</p>
+                                  </div>
+
+                              </div>
+                            </div>
+                            <ul class="page pull-right">
+                                        <li><a href="#">«</a></li>
+                                        <li class="active"><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li><a href="#">6</a></li>
+                                        <li><a href="#">...</a></li>
+                                        <li><a href="#">3426</a></li>
+                                        <li><a href="#">»</a></li>
+                                        <li class="go">前往 <input type="text" name="" value="1"> 页</li>
+                                    </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- footer begin-->
+        <div class="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="about-area">
+                                <img src="/static/assets/img/footer-logo.png" alt="">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus fuga, laudantium odio dolor ut iusto, pariatur
+                                neque.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-3">
+                            <div class="useful-link">
+                                <h3>Company Info</h3>
+                                <ul>
+                                    <li><a href="#"><span><i class="fas fa-chevron-right"></i></span>About Company</a></li>
+                                    <li><a href="#"><span><i class="fas fa-chevron-right"></i></span>Investment Plans</a></li>
+                                    <li><a href="#"><span><i class="fas fa-chevron-right"></i></span>Privacy Policy</a></li>
+                                    <li><a href="#"><span><i class="fas fa-chevron-right"></i></span>Terms of Service</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-3">
+                            <div class="useful-link">
+                                <h3>Member Area</h3>
+                                <ul>
+                                    <li><a href="#"><span><i class="fas fa-chevron-right"></i></span>About Company</a></li>
+                                    <li><a href="#"><span><i class="fas fa-chevron-right"></i></span>Investment Plans</a></li>
+                                    <li><a href="#"><span><i class="fas fa-chevron-right"></i></span>Privacy Policy</a></li>
+                                    <li><a href="#"><span><i class="fas fa-chevron-right"></i></span>Terms of Service</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="secure-area">
+                                <h3>We Are Secure</h3>
+                                <div class="logo">
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-4 col-logo">
+                                            <div class="single-logo">
+                                                <img src="/static/assets/img/payment-1.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-logo">
+                                            <div class="single-logo">
+                                                <img src="/static/assets/img/payment-2.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-logo">
+                                            <div class="single-logo">
+                                                <img src="/static/assets/img/payment-3.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-logo">
+                                            <div class="single-logo">
+                                                <img src="/static/assets/img/payment-4.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-logo">
+                                            <div class="single-logo">
+                                                <img src="/static/assets/img/payment-3.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-logo">
+                                            <div class="single-logo">
+                                                <img src="/static/assets/img/payment-2.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 d-xl-flex d-lg-flex align-items-center">
+                            <div class="copyright">
+                                <p>Copyright © 2019 HYIPREX. All Rights <a href="http://www.bootstrapmb.com/" title="bootstrapmb">reserved</a>.</p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="social">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer end -->
+
+
+        <!-- owl carousel -->
+        <script src="/static/assets/js/owl.carousel.js"></script>
+        <!-- magnific popup -->
+        <script src="/static/assets/js/jquery.magnific-popup.js"></script>
+        <!-- counter up js -->
+        <script src="/static/assets/js/jquery.counterup.min.js"></script>
+        <!-- way poin js-->
+        <script src="/static/assets/js/waypoints.min.js"></script>
+        <!-- wow js-->
+        <script src="/static/assets/js/wow.min.js"></script>
+        <!-- main -->
+        <script src="/static/assets/js/main.js"></script>
+        <script src="/static/assets/js/add.js"></script>
+        <script type="text/javascript" src="/static/assets/js/jquery-1.12.2.min.js"></script>
+    </body>
+
+</html>
